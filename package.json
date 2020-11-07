@@ -1,24 +1,30 @@
 {
-  "name": "file-dup-action",
-  "version": "1.0.0",
+  "name": "file-dup",
+  "version": "0.0.1",
   "description": "A GitHub action to automate file duplication.",
+  "keywords": [
+    "actions"
+  ],
+  "author": "Tianhao Zhou <tianhaoz@umich.edu>",
+  "homepage": "https://github.com/tianhaoz95/one",
+  "license": "MIT",
   "main": "lib/index.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tianhaoz95/monorepo-actions.git"
+    "url": "git+https://github.com/tianhaoz95/one.git"
   },
-  "author": "Tianhao Zhou",
-  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
   "bugs": {
-    "url": "https://github.com/tianhaoz95/monorepo-actions/issues"
-  },
-  "homepage": "https://github.com/tianhaoz95/monorepo-actions#readme",
-  "devDependencies": {
-    "typescript": "^4.0.3"
+    "url": "https://github.com/tianhaoz95/one/issues"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
@@ -26,5 +32,8 @@
     "@actions/github": "^4.0.0",
     "@actions/glob": "^0.1.0",
     "@actions/io": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
   }
 }

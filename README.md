@@ -1,3 +1,11 @@
-# File Dup Action
+# `file-dup`
 
-An action to automatically duplicate file into specified locations.
+> TODO: description
+
+## Usage
+
+```
+const fileDup = require('file-dup');
+
+// TODO: DEMONSTRATE API
+```
